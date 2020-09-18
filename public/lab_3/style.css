@@ -3,6 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: aqua;
 }
 
 html {
@@ -20,7 +21,8 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family:'Hanalei';
+  font-weight: 400;
   color: #2a2a2a;
 }
 
@@ -40,6 +42,7 @@ h2 {
   font-size: 5rem;
   text-align: center;
   font-weight: 800;
+  
 }
 
 h3 {
@@ -138,4 +141,5 @@ nav a, nav span {
 
 .footer {
   margin-top: 10px;
+  background-color:rgba(0,255,0,0.5) ;
 }
