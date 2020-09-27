@@ -37,7 +37,7 @@ html, body {
   .flex-outer { 
     max-width:800px ;
     margin: 0 auto;
-   
+   align-content: space-between;
 
   }
   .flex-inner{
@@ -45,13 +45,23 @@ html, body {
     justify-content: space-between;
    
   }
-
+.flex-outer li,
+.flex-inner{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
   
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 190px;
+  max-width: 220px;
+}
+
 .flex-outer > li > label + *,
 .flex-inner {
   flex: 1 0 220px;
 }
-
 
   .button{
     background-color:darkred;
