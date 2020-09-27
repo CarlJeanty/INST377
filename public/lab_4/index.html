@@ -1,1 +1,70 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Carl Jeanty LAB4</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <header> 
+                    <h1>Carl Jeanty Lab 4</h1>
+                </header>
+                <form  action="" method="get">
+                    <ul class="flex-outer">
+                        <li>
+                            <label for="Firstn">First Name </label>
+                            <input type="text" id='Firstn' name='Firtsn' maxlength="140">
+                        </li>
+                        <li>
+                            <label for="Lastn">Last Name </label>
+                            <input type="text" id='Lastn' name='Lastn' maxlength="140">
+                        </li>
+                        <li>
+                            <label for="Email">Email@example.com </label>
+                            <input type="text" id='Email' name='Email'>
+                        </li>
+                        <li>
+                            <label for="Phonen">Phone number </label>
+                            <input type="tel" id='Phonen' name='Phonen'>
+                        </li>
+                        <li>
+                            <label for="messages">Message</label>
+                            <textarea name="messages" id="messages" cols="33" rows="5"></textarea>    
+                        </li>
+                        <li>
+                            <p>Age</p>
+                            <ul class="flex-inner">
+                                 
+                                <li>                             
+                                    <label for="eighteen-to-thirty-five">18-35</label>
+                                    <input type="checkbox" id="eighteen-to-thirty-five">
+                                </li> 
+
+                                <li>
+                                    <label for="thirty-five-to-fifty">18-35</label>
+                                    <input type="checkbox" id="thirty-five-to-fifty">
+                                </li>
+
+                                <li>
+                                    <label for="fifty-to-sixty-five">18-35</label>
+                                    <input type="checkbox" id="fifty-to-sixty-five">
+                                 </li>
+                            </ul>
+                            <li> 
+                                <button type="submit" class="button" formmethod="post" formaction="/api">Submit</button>
+                            </li>
+
+                        </li>
+                    </ul>
+
+                </form>
+
+            </div>
+        </div>
+    
+    
+    </body>
+</html>
