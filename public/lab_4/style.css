@@ -39,11 +39,11 @@ html, body {
     max-width:800px ;
     margin: 0 auto;
    align-content: space-between;
-
+   flex-direction:row ;
   }
   .flex-inner{
     padding: 2 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
    
   }
 .flex-outer li,
@@ -55,13 +55,13 @@ html, body {
   
 .flex-outer > li > label,
 .flex-outer li p {
-  flex: 1 2 190px;
+  flex: 3 0 190px;
   max-width: 220px;
 }
 
 .flex-outer > li > label + *,
 .flex-inner {
-  flex: 2 1 220px;
+  flex: 3 0 220px;
 }
 
   .button{
@@ -80,7 +80,7 @@ html, body {
   /* || typography */
   
   h1, h2, h3 {
-    font-family: 'Comfortaa', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #2a2a2a;
   }
   
@@ -94,6 +94,7 @@ html, body {
     text-align: center;
     text-shadow: 2px 2px 10px black;
     font-weight: 100;
+
   }
   
   h2 {
