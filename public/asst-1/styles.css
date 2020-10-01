@@ -1,1 +1,60 @@
+/* General body */
+html, body{
+   margin: 0;
+   padding: 0;
+}
 
+html{
+font-size: 12px;
+}
+
+body{
+width: 80%;
+min-width: 800px;
+margin: auto;
+background-color: chocolate;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid black;
+    
+}
+.wrapper{
+    margin: auto;
+    max-width: 960px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.flex-outer { 
+    max-width:800px ;
+    margin: 0 auto;
+   align-content: space-between;
+   flex-direction:column ;
+  }
+  .flex-inner{
+    padding: 2 10px;
+    
+   
+  }
+
+
+/* Header class*/
+.header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+img{
+ justify-content: flex-end;
+}
+/*Font design */
+h1,h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
