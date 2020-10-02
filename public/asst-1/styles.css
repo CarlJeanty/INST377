@@ -44,9 +44,15 @@
     margin-right: 15px;
     
   }
-  
+  .image>p{
+    background-color: rgb(66, 233, 233);
+    font-family: 'Times New Roman', Times, serif;
+
+  }
   .columnb{
-    flex: 1 0 auto;
+
+    background-color: lightgreen;
+    border-radius: 0%;
   }
   
   /*sub columns  */
@@ -66,7 +72,20 @@
     }
   }
   
-  /* h2 style */
+  /* Font styles colunm  */
+  .columnb, h2,p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+  }
+
+.columnb,li>h2{
+  font-family:'Architects Daughter';
+
+}
+.columnb,li>p{
+  font-family: 'Barlow',cursive;
+  font-weight: 500;
+}
   
   
   /*  */
