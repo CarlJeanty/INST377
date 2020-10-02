@@ -50,7 +50,12 @@
   }
   
   /*sub columns  */
-  
+  .columna > .image > img{
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+  }
+
   
   
   /* h2 style */
