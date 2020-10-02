@@ -56,7 +56,15 @@
     border-style: solid;
   }
 
-  
+  @media (max-width:1000px){
+    .container{
+      justify-content:center;
+    }
+    .columna{
+      flex: 1 0 auto;
+      margin-right: 0px;
+    }
+  }
   
   /* h2 style */
   
