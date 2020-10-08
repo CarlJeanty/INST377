@@ -17,12 +17,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "node-fetch": "^2.6.1",
-<<<<<<< HEAD
-=======
     "dotenv": "^8.2.0",
     "recursive-readdir": "^2.2.2",
     "chalk": "^4.1.0",
->>>>>>> 00fe1777fa62b0bcd56987b128f946baff0e98d7
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
