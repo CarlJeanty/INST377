@@ -224,3 +224,7 @@ html, body {
     margin-top: 10px;
     background: rgba(0,255,0,0.5);
   }
+
+  .flex-outer{
+    margin: 0 auto;
+  }
