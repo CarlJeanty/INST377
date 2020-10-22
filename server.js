@@ -22,7 +22,7 @@ app.route('/api')
     
     console.log('POST request detected');
     console.log('Form data in res.body', req.body)
-    res.send('Carl Jeanty')
+    res.send('hello world')
   });
 
 app.listen(port, () => {

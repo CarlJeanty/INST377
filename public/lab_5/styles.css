@@ -96,7 +96,7 @@ html, body {
     width: 85px;
   }
   .checkbox-list-label{
-    margin: auto;
+    margin:0 auto;
   }
    
   
@@ -146,6 +146,7 @@ html, body {
   body > * {
     background-color:rgb(121, 184, 163);
     padding: 1%;
+    
   }
   
   .main, .header, nav, .article, .aside, footer, section {
@@ -225,6 +226,4 @@ html, body {
     background: rgba(0,255,0,0.5);
   }
 
-  .flex-outer{
-    margin: 0 auto;
-  }
+  

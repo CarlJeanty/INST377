@@ -70,11 +70,11 @@
             document.body.style.backgroundColor= '#4287f5';
             document.querySelector('.container').style.backgroundColor='#4287f5';
             document.getElementById("h1_header").innerHTML ="Lab 5 for Carl Jeanty";
-            let y = document.querySelector('.flex-outer');
-            y.style.margin = 'auto';
             let x = document.querySelector('.checkbox-list-label');
             x.innerHTML= "Fruits";
-            
+            let y = document.querySelector('.flex-outer');
+                 y.style.margin= '0 auto;'
+           
             fetch('/api')
             .then((response)=> response.text())
             .then((response)=>{
