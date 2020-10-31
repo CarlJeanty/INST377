@@ -78,6 +78,9 @@ body {
   padding: 0 16px;
   margin:0 auto;
 }
+.ButtonSubmit{
+  background-color: darkred;
+}
 
 /* New for Lab 7 */
 h1 {
